@@ -1,3 +1,4 @@
+```mermaid
 graph TD
     A[Application Layer] -->|Data| B[Presentation Layer]
     B -->|Data| C[Session Layer]
