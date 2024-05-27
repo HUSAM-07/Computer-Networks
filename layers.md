@@ -1,11 +1,11 @@
 ```mermaid
 graph TD
-    A[Application Layer] -->|Data| B[Presentation Layer]
-    B -->|Data| C[Session Layer]
-    C -->|Data| D[Transport Layer]
-    D -->|Segments| E[Network Layer]
-    E -->|Packets| F[Data Link Layer]
-    F -->|Frames| G[Physical Layer]
+    A[Application Layer] -->|Data| B[Presentation Layer];
+    B -->|Data| C[Session Layer];
+    C -->|Data| D[Transport Layer];
+    D -->|Segments| E[Network Layer];
+    E -->|Packets| F[Data Link Layer];
+    F -->|Frames| G[Physical Layer];
 
     subgraph Data Flow
         A --> B --> C --> D --> E --> F --> G
