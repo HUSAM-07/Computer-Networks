@@ -9,7 +9,7 @@ graph TD
 
     subgraph Data Flow
         A --> B --> C --> D --> E --> F --> G
-    end
+
 # Computer Network Layers Explained
 Computer networks function using a series of layers, each with specific roles, working together to ensure data is transferred from one device to another. These layers are part of the OSI (Open Systems Interconnection) model, which standardizes communication functions.
 
